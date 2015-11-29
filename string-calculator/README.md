@@ -5,7 +5,7 @@
 L'objectif de l'exercise est d'implementer une calculatrice avec les fonctionnalitées demandées. 
 Cette calculatrice sera implementé dans la classe StringCalculator.java avec une méthode add(String numbers)
 
-## Introduction
+## Règles
 
 Avant de commencer :
 
