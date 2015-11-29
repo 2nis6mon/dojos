@@ -1,12 +1,18 @@
 # StringCalculator
 
+## Description
+
+L'objectif de l'exercise est d'implementer une calculatrice avec les fonctionnalitées demandées. 
+Cette calculatrice sera implementé dans la classe StringCalculator.java avec une méthode add(String numbers)
+
 ## Introduction
 
-Avant de commencer : 
-1. Faire les taches dans l’ordre
-2. Faire une tâche à la fois.
-3. Assurez-vous que vous testez seulement les entrées valides. Il n'y a pas besoin de tester les cas non valides.
-4. Il doit pas avoir des régressions sur les taches précédentes au cours de l’exercice.
+Avant de commencer :
+
+* Faire les taches dans l’ordre
+* Faire une tâche à la fois.
+* Assurez-vous que vous testez seulement les entrées valides. Il n'y a pas besoin de tester les cas non valides.
+* Il doit pas avoir des régressions sur les taches précédentes au cours de l’exercice.
 
 
 ## Exercice
@@ -23,7 +29,7 @@ Exemple : add("1,2,3")=6
    
 * La méthode add peut gérer le retour à la ligne "\n".
 ```
-**ATTENTION** : l'entrée suivante n’est PAS autorisée: "1,\n"
+ATTENTION : l'entrée suivante n’est PAS autorisée: "1,\n"
 ```
 ```
 Exemple : add("1\n2,3")=6
@@ -31,7 +37,7 @@ Exemple : add("1\n2,3")=6
    
 * Différents séparateurs : la méthode peut accepter un séparateur different de la virgule, le début de la chaîne contiendra une ligne distincte qui ressemble à ceci: "//[séparateur]\[nombre ...]"
 ```
-**ATTENTION** : la première ligne est facultative. tous les scénarios existants doivent encore être pris en charge.
+ATTENTION : la première ligne est facultative. tous les scénarios existants doivent encore être pris en charge.
 ```
 ```
 Exemple : add("//;\n1;2")=3
